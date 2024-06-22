@@ -56,8 +56,8 @@ pygame.Surface.set_colorkey(bad_guy, black)
 # choose one or the other by commenting out
 
 #mixer.music.load('MUSIC/BATTLE/battle_01.mp3') # funny yellow fella
-#mixer.music.load('MUSIC/BATTLE/battle_02.mp3') # funny robot fella
-mixer.music.load('MUSIC/BATTLE/blam_gun.mp3') # funny gun fella
+mixer.music.load('MUSIC/BATTLE/battle_02.mp3') # funny robot fella
+
 mixer.music.set_volume(0.1) # i think the volume can only be between 0 and 1
 mixer.music.play(-1) # -1 makes the music loop
 
@@ -306,4 +306,5 @@ while game == True:
     pygame.display.flip() # update screen
     
     clock.tick(60)
+
 
