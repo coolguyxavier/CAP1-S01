@@ -209,7 +209,7 @@ while game == True:
     # heal button
     if keys[pygame.K_e] and heals_left != 0 and p_health <= 25:
         heals_left -= 1
-        p_health += 100
+        p_health = 100
         
     # kill button
     if keys[pygame.K_3]:
