@@ -16,7 +16,8 @@ import pygame
 from pygame import mixer
 from math import cos, sin, atan2
 from random import randint
-
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # - Pygame Initialization - #
 
